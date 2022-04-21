@@ -4,7 +4,6 @@
 module Realm {
     umbrella header "Realm/Realm.h"
     export *
-    module * { export * }
 
     explicit module Private {
         header "Realm/RLMAccessor.h"
@@ -25,7 +24,6 @@ module Realm {
         header "Realm/RLMSchema_Private.h"
         header "Realm/RLMSet_Private.h"
         header "Realm/RLMSwiftCollectionBase.h"
-        header "Realm/RLMSwiftProperty.h"
         header "Realm/RLMSwiftValueStorage.h"
         header "Realm/RLMSyncConfiguration_Private.h"
         header "Realm/RLMSyncSubscription_Private.h"
